@@ -8,9 +8,9 @@ env:
     - PROJECT_NAME=libmetgem
     - GITHUB_REPO_NAME=metgem/libmetgem
     - PYPI_LOGIN=n-elie
-    - CC = g++
+    - CC=g++
     - CXXFLAGS="-std=c++11 -stdlib=libc++"
-    - MACOSX_DEPLOYMENT_TARGET = 10.9
+    - MACOSX_DEPLOYMENT_TARGET=10.9
     
 language: generic
 os:
