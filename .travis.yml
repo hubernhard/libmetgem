@@ -8,7 +8,7 @@ env:
     - PROJECT_NAME=libmetgem
     - GITHUB_REPO_NAME=metgem/libmetgem
     - PYPI_LOGIN=n-elie
-    - CFLAGS=-std=c++11
+    - CFLAGS="-std=c++11 -stdlib=libc++"
     - CXXFLAGS="-std=c++11 -stdlib=libc++"
     
 language: generic
