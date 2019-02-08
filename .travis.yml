@@ -12,6 +12,7 @@ env:
     - CXXFLAGS="-std=c++11 -stdlib=libc++"
     
 language: generic
+compiler: g++
 os:
   - linux
   - osx
