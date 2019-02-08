@@ -10,6 +10,7 @@ env:
     - PYPI_LOGIN=n-elie
     - CC = g++
     - CXXFLAGS="-std=c++11 -stdlib=libc++"
+    - MACOSX_DEPLOYMENT_TARGET = 10.9
     
 language: generic
 os:
